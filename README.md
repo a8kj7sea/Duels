@@ -1,2 +1,5 @@
 # Duels
-plugin was made by me and edited by data (gprace) to grimmc server / the rights back to me and grimmc server
+
+# todo
+
+- make simple accept / ingore duel system [working on it - chat way - toggleable option from gui to chat - after release]

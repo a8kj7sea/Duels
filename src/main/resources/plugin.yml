@@ -1,0 +1,37 @@
+name: Duels
+version: 1.0
+main: me.sanhak.duel.Main
+authors:
+  - Sanhak
+  - data
+depend:
+  - CombatLogX
+  - BlueSlimeCore
+permissions:
+  1v1.setup:
+    description: Setup Permission for Developers
+    default: op
+commands:
+  1v1rl:
+    description: Reload the Duels Plugin
+    permission: 1v1.setup
+  1v1setup:
+    description: Setup the Duel System
+    permission: 1v1.setup
+  duel:
+    description: Send a player a duel
+    aliases:
+      - 1v1
+      - 1vs1
+      - onevone
+      - onevsone
+  dueltop:
+    description: Check the top 10 duel winners!
+    aliases:
+      - 1v1top
+      - 1vs1top
+      - onevonetop
+      - onevsonetop
+      - topduel
+    permission: duels.unreleased
+    permission-message: This is not released yet.
